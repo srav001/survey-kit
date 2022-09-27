@@ -2,6 +2,6 @@
 **/.svn
 **/.hg
 **/node_modules
+**/public
 package.json
-src-tauri
-src-capacitor
+pnpm-lock.yaml
