@@ -1,25 +1,22 @@
 # survey-kit
 
-This template should help get you started developing with Vue 3 in Vite.
+Survey kit is a Vue 💚 tool aimed to quickly and easily create surveys & quizes. It is aimed to let anyone add surveys ( like google survey ) or quizes to their web apps. We can add surveys within components or as a whole page as needed. 
 
-## Recommended IDE Setup
+TODO: `Add more details and instructions`
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+The current roadmap for `first release` includes all features described in `v1`.
 
-## Type Support for `.vue` Imports in TS
+### Features for `v1` 🔥
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+* Create surveys easily & fast
+* Support for multi-language
+* Caches to local storage
+* Style freely & quickly
+* Quick survey templates
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+> The plan for v2 is to be able to connect to a DB either by individual hosting or through connection parameters. Then provide a report based on the survey or quiz as a graph or chart. 
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+#
 
 ## Project Setup
 
@@ -39,6 +36,18 @@ pnpm dev
 pnpm build
 ```
 
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+pnpm lint
+```
+
+### Format with [Prettier](https://prettier.io/)
+
+```sh
+pnpm format
+```
+
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
@@ -51,9 +60,9 @@ pnpm test:unit
 pnpm build
 pnpm test:e2e # or `pnpm test:e2e:ci` for headless testing
 ```
+#
 
-### Lint with [ESLint](https://eslint.org/)
+## License
 
-```sh
-pnpm lint
-```
+[MIT](https://opensource.org/licenses/MIT)
+
